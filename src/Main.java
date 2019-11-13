@@ -7,7 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         Room room = new Room();
         String[][] roomName = new String[4][5];
-        Room room1 = new Room(new ArrayList<>(Arrays.asList("dead scorpion")),"  #1",new ArrayList<>(Arrays.asList("N")));
+        Room room1 = new Room(new ArrayList<>(Arrays.asList("dead scorpion")),"  #1",new ArrayList<>(Arrays.asList("E","S")));
         Room room2 = new Room(new ArrayList<>(Arrays.asList("piano")),"  #2",new ArrayList<>(Arrays.asList("N","W","E")));
         Room room3 = new Room(new ArrayList<>(Arrays.asList("spiders")),"  #3",new ArrayList<>(Arrays.asList("E","N")));
         Room room4 = new Room(new ArrayList<>(Arrays.asList("bats")),"  #4",new ArrayList<>(Arrays.asList("N","W")));

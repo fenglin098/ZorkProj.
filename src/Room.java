@@ -40,16 +40,20 @@ public class Room {
         this.direction = direction;
     }
 
-    public void userDirection(String x) {
+    public int userDirection(String x) {
         switch (x) {
             case "n":
                 row--;
+                break;
             case "s":
                 row++;
+                break;
             case "w":
                 col--;
+                break;
             case "e":
                 col++;
+                break;
         }
     }
 
